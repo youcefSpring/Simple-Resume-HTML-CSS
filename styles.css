@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Set default font family */
+    line-height: 1.6; /* Set line height for better readability */
+    background-color: #f4f4f4; /* Set background color */
+    color: #333; /* Set text color */
+    margin: 0;
+    padding: 0;
+}
+/* Table Styles */
+table {
+    width: 100%; /* Table takes full width of container */
+    border-collapse: collapse; /* Merge table borders */
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 8px 12px; /* Cell padding */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Add border to table cells */
+}
+
+table th {
+    background-color: #f4f4f4; /* Header background color */
+    font-weight: bold;
+}
+.container {
+    max-width: 1200px; /* Set maximum width for content */
+    margin: auto; /* Center align content horizontally */
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333; /* Set header background color */
+    color: #fff; /* Set header text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subtitle {
+    font-size: 1.2em; /* Set subtitle font size */
+    margin-top: -10px; /* Adjust margin for spacing */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* About Section */
+#about {
+    margin-bottom: 30px;
+}
+
+/* Skills Section */
+#skills ul {
+    list-style: none; /* Remove bullet points from skill list */
+}
+
+#skills li {
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.project {
+    border: 1px solid #ddd; /* Add border around project */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Contact Section */
+#contact p, #contact a {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Set footer background color */
+    color: #fff; /* Set footer text color */
+}
+
+/* Links */
+a {
+    color: #007BFF; /* Set link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
